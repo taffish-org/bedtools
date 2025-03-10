@@ -1,0 +1,9 @@
++TOOL:bedtools
+ARGS
+    <else>
+        bedtools --help
+    <main>
+        bedtools ::*APP-ARGS*::
+RUN
+    <container:taf-bedtools-v2.31.1:ghcr.io/taffish-org/bedtools:2.31.1>
+        ::*MAIN*::

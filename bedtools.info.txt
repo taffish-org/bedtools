@@ -1,0 +1,9 @@
+# <bedtools:2.31.1 | KaiyuanHan | 2025-03-10>
+ARGS
+    <else>
+        bedtools --help
+    <main>
+        bedtools ::*APP-ARGS*::
+RUN
+    <container:taf-bedtools-v2.31.1:ghcr.io/taffish-org/bedtools:2.31.1>
+        ::*MAIN*::

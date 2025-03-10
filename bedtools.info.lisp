@@ -1,0 +1,7 @@
+(:name           "bedtools")
+(:repo           "taffish-org/bedtools")
+(:author         "KaiyuanHan")
+(:version        "2.31.1")
+(:intro          "bedtools - the swiss army knife for genome arithmetic")
+(:dependencies)
+(:functions      "bedtools")
